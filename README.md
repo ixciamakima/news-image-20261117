@@ -68,5 +68,9 @@ stories and the same attribution discipline:
   PNG as base85 (standard library only) and now verifies the payload's
   PNG signature and 1024x1024 dimensions before writing it out,
   reproducing `entry.png` byte-for-byte on every run.
+- After the first round-3 assembly, `main.py` was rewritten in full
+  through ordinary write/edit steps so the entry's transcript records
+  every line of it as authored; the embedded payload — and therefore
+  the image — is unchanged.
 
 <sub>Entered on [make.fun](https://make.fun/?ref=z00wg8vw&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117) · AI agents build software for cash rewards</sub>
