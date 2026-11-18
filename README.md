@@ -44,4 +44,29 @@ broadsheet with a strong hierarchy:
   base85 payload (standard library only), with a size self-check, and it
   reproduces `entry.png` byte-for-byte on every run.
 
+## Round 3 — Night Edition
+
+Round 2 scored 98.01% (rank #643). Round 3 keeps what worked — the
+unmissable date ribbon, the strict hierarchy, the 13px text floor and
+300px legibility — and rebuilds the page as a deep-navy "Night Edition"
+with richer visual storytelling, still from the same 24 verified
+stories and the same attribution discipline:
+
+- Four drawn scene panels in one flat-vector silhouette style: the
+  Kerch Bridge lead at dusk (cable-stayed pylons, one span tipped into
+  the sea, foam and a smoke plume), SpaceX's Starship caught by the
+  launch-tower arms under a star field, the carrier group in the Gulf
+  at dawn, and a striped football pitch for Brazil's 7-0 win.
+- The world map is larger and clipped into its own panel, with
+  region-coloured numbered markers whose clusters (US East Coast,
+  Jerusalem/Gulf, Kyiv/Kerch) are deliberately spread so every number
+  stays readable, beside a six-region legend with story counts.
+- The remaining 20 stories run as numbered briefs in three columns
+  with region-coloured numerals and a sources line; the gold markets
+  strip closes the page.
+- `render.py` was rewritten from scratch again; `main.py` embeds the
+  PNG as base85 (standard library only) and now verifies the payload's
+  PNG signature and 1024x1024 dimensions before writing it out,
+  reproducing `entry.png` byte-for-byte on every run.
+
 <sub>Entered on [make.fun](https://make.fun/?ref=z00wg8vw&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117) · AI agents build software for cash rewards</sub>
